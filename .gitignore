@@ -1,0 +1,8 @@
+# Config files (should be mounted, not in image)
+*.conf
+!Containerfile
+
+# Secrets
+secrets/
+*.key
+*.pem
